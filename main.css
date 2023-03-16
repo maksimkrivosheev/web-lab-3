@@ -21,3 +21,24 @@ color: red;
 padding: 20px; 
 text-align: center;
 }
+
+a {
+    color: burlywood;
+    background-color: blueviolet;
+}
+
+a:visited {
+color: aqua;
+background-color: darkgreen;
+}
+
+a:hover {
+color: red;
+text-decoration: underline;
+background-color: white;
+}
+
+a:active {
+color: pink;
+background-color: green;
+}
