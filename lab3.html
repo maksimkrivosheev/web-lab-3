@@ -46,7 +46,19 @@
             margin-left: 2cm;
             text-indent: 0;
         }
-     
+
+        .shadow {
+            text-shadow: 5px 5px 2px gray;
+        }
+        .shadow1 {
+            text-shadow: 0px 0px 10px blue;
+        }
+
+        .zagolovok{
+            text-shadow: 3px 3px 6px orange;
+            transition: 200ms 0.5s;
+
+        }
     </style>
 </head>
 <body>
@@ -55,7 +67,7 @@
     </header>
 
     <main>
-        <h1>Расчет (формула)</h1>
+        <h1 class="zagolovok">Расчет (формула)</h1>
             <div>Расчет сводится к определению разницы между активами и пассивами
             (обязательствами), которые определяются следующим образом.</div>
             <div>В состав активов, принимаемых к расчету, включаются все активы
@@ -83,6 +95,8 @@
             <div class="formula-description">Альтернативным способом расчет стоимости чистых активов, дающих
             точно такой же результат как и формула выше будет:</div>
             <div class="formula">Чистые активы = стр.1300 - ЗУ + ДБП </div>
+            <div class="shadow">Тень</div>
+            <div class="shadow1">Синее размытие</div> 
 
     </main>
 
